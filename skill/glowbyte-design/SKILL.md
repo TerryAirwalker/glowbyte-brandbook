@@ -42,6 +42,22 @@ https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/font
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/fonts/JetBrainsMono-Bold.ttf
 ```
 
+### Геометрические формы (готовый набор)
+
+Фирменные плоские формы в 4 цветах (orange/green/yellow/blue) — в папке `shapes/`
+публичного репозитория ассетов. 10 типов × 4 цвета: `cube-`, `arc-`, `quarter-`,
+`circle-dot-`, `rings-`, `rings-quarter-`, `dots-`, `chevron-col-`, `chevron-div-`,
+`square-quarter-`. Пример:
+
+```
+https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/shapes/cube-orange.svg
+https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/shapes/arc-blue.svg
+https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/shapes/chevron-div-yellow.svg
+```
+
+Правила применения форм — в брендбуке (раздел «Компоненты» → «Правила применения»):
+не более 1–2 акцентов на слайд, формы в углах и не поверх текста, рыжий акцент обязателен.
+
 `Montserrat-var.ttf` — переменный шрифт (ось `wght` 100–900): одним файлом покрывает все
 начертания (Light 300 … Bold 700). Используй его для web/HTML/SVG/CSS-материалов
 (`@font-face` + `font-weight`). Для `docx/pptx/pdf` встраивай статические
