@@ -8,8 +8,8 @@
       "name": "GlowByte Marketing"
     },
     "character": "Технологичный и энергичный бренд №1 по BI и Big Data в России: чёткая геометрия, обязательный рыжий акцент в любых материалах и строгий контраст текста на фоне.",
-    "version": "1.2",
-    "updated": "2026-08-06"
+    "version": null,
+    "updated": null
   },
   "entrypoint": {
     "step1": "Прочитать meta и routing, чтобы понять какие разделы манифеста нужны для задачи.",
@@ -52,6 +52,15 @@
     ],
     "client_logos": [
       "client_logos"
+    ],
+    "resources": [
+      "resources"
+    ],
+    "howto": [
+      "resources"
+    ],
+    "faq": [
+      "resources"
     ]
   },
   "how_agent_should_use": [
@@ -618,6 +627,57 @@
       "long": ""
     }
   ],
+  "resources": {
+    "links": {
+      "repo": "https://github.com/TerryAirwalker/glowbyte-brandbook",
+      "pages": "https://TerryAirwalker.github.io/glowbyte-brandbook",
+      "raw": "https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brandbook/main/manifest.json",
+      "skill_dir": "https://github.com/TerryAirwalker/glowbyte-brandbook/tree/main/skill/glowbyte-design",
+      "raw_skill": "https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brandbook/main/skill/glowbyte-design/SKILL.md",
+      "assets_repo": "https://github.com/TerryAirwalker/glowbyte-brand-assets",
+      "site": "https://glowbyteconsulting.com"
+    },
+    "howto": [
+      {
+        "step": "Шаг 1",
+        "title": "Возьми токены",
+        "body": "Цвет, типографику, градиенты и эффекты — из соответствующих разделов брендбука или из <code>manifest.json</code>. Рыжий <b>#FE6A00</b> — обязательный акцент в любых материалах."
+      },
+      {
+        "step": "Шаг 2",
+        "title": "Собери по паттернам",
+        "body": "Компоненты, плоские геометрические примитивы, типы слайдов и графиков — переиспользуй, не изобретай заново. Коллаж форм — в одном углу, не поверх текста."
+      },
+      {
+        "step": "Шаг 3",
+        "title": "Проверь по чек-листу",
+        "body": "Сверься с чек-листом презентаций и правилами: контраст текста на фоне, ритм фонов (не более двух одинаковых подряд), рыжий акцент на ключевом слайде."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Какие шрифты у бренда?",
+        "a": "Основной шрифт — <b>Montserrat</b> (заголовки и текст), подключён как вариативный на всю ось начертаний. Моноширинный — для кода и лейблов. Подробности и шкала — раздел «Типографика». Системные и посторонние гарнитуры не подмешивать."
+      },
+      {
+        "q": "Где брать логотип и можно ли его перекрашивать?",
+        "a": "Оригинальные SVG — из ассетов (репозиторий <code>glowbyte-brand-assets</code>). Знак не перерисовывать и не искажать пропорции. Цвет знака — рыжий на светлом фоне, белый на тёмном/цветном; полноцветные градиентные версии — только как задано."
+      },
+      {
+        "q": "Можно ли добавить свой акцентный цвет?",
+        "a": "Нет. Ядро палитры закрыто: рыжий (ведущий акцент), зелёный, жёлтый, синий и нейтрали. Рыжий <b>#FE6A00</b> обязателен в любых материалах. Для данных и графиков есть заданные растяжки и схемы — см. «Графики и схемы»."
+      },
+      {
+        "q": "Как чередовать фоны в презентации?",
+        "a": "Светлый фон — база; зелёный и синий — акцентные развороты и разделители. Держите ритм: <b>не более двух одинаковых фонов подряд</b>. На цветном фоне следите за контрастом текста."
+      },
+      {
+        "q": "Куда писать по вопросам бренда?",
+        "a": "Большинство материалов агент готовит сам по манифесту и брендбуку. Если нужен новый ассет, нестандартный формат, доступ к исходникам или исключение из правил — пишите в маркетинг: <a href=\"mailto:marketing@glowbyteconsulting.com\">marketing@glowbyteconsulting.com</a>."
+      }
+    ],
+    "marketing_contact": "не выдумывай — согласуй с маркетингом: <a href=\"mailto:marketing@glowbyteconsulting.com\">marketing@glowbyteconsulting.com</a>."
+  },
   "logo": {
     "mark_viewbox": "0 0 41 131",
     "wordmark_svg_path": "glowbyte-logo-red.svg",
