@@ -34,6 +34,7 @@ https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brandbook/main/index.h
 ```
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/logos/glowbyte-logo-red.svg
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/logos/glowbyte-logo-white.svg
+https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/logos/glowbyte-mark.svg
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/fonts/Montserrat-Regular.ttf
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/fonts/Montserrat-Bold.ttf
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/fonts/JetBrainsMono-Regular.ttf
@@ -42,6 +43,9 @@ https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/font
 
 Рыжий логотип — по умолчанию (белый/чёрный фон), белый логотип — для цветного/чёрного
 фона (см. `manifest.json` → `colors.forbidden`: рыжий логотип на цветном фоне запрещён).
+`glowbyte-mark.svg` — отдельный знак (без слова "lowbyte"), для мест где полный
+wordmark не влезает (favicon, мелкий бейдж, аватар); `fill="currentColor"`, перекраска
+через CSS `color` — только в пределах фирменной палитры (см. `forbidden`).
 Шрифты встраивать в готовые файлы (docx/pptx/pdf), не полагаться на системный Montserrat.
 
 ## Перед стартом
