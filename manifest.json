@@ -32,11 +32,15 @@
     "products": [
       "products"
     ],
+    "brand_rules": [
+      "rule_groups"
+    ],
     "slides": [
       "effects",
       "colors",
       "typography",
-      "logo"
+      "logo",
+      "rule_groups"
     ],
     "effects": [
       "effects"
