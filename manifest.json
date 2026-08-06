@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "brand": "GlowByte",
+    "tagline_en": "#1 in BI & Big Data services in Russia",
+    "website": "https://glowbyteconsulting.com",
+    "contact": {
+      "email": "marketing@glowbyteconsulting.com",
+      "name": "GlowByte Marketing"
+    },
+    "character": "Технологичный и энергичный бренд №1 по BI и Big Data в России: чёткая геометрия, обязательный рыжий акцент в любых материалах и строгий контраст текста на фоне.",
+    "version": "1.0",
+    "updated": "2026-08-06"
+  },
+  "entrypoint": {
+    "step1": "Прочитать meta и routing, чтобы понять какие разделы манифеста нужны для задачи.",
+    "step2": "Не собирать материал по памяти — брать значения (цвета/шрифты/лого/тексты) из манифеста.",
+    "step3": "Если задача про слайды/pptx — см. routing.slides.",
+    "step4": "Если задача про цвет/палитру — см. routing.colors.",
+    "step5": "Если неясно, какой вариант нужен — см. clarify_before_start.",
+    "step6": "Перед выдачей результата — пройти self_check_before_delivery.checklist."
+  },
+  "routing": {
+    "colors": [
+      "colors"
+    ],
+    "typography": [
+      "typography"
+    ],
+    "logo": [
+      "logo"
+    ],
+    "products": [
+      "products"
+    ],
+    "slides": [
+      "slides",
+      "effects",
+      "colors",
+      "typography"
+    ],
+    "effects": [
+      "effects"
+    ]
+  },
+  "how_agent_should_use": [
+    "Манифест — источник правды по токенам бренда; не придумывать значения самому.",
+    "Логотип не искажать, не менять пропорции, не менять цвет вне заданных вариантов.",
+    "Соблюдать forbidden (запрещённые сочетания/приёмы), если раздел присутствует."
+  ],
+  "clarify_before_start": {
+    "when": "Не указан язык/материал/вариант логотипа.",
+    "ask": "Уточнить язык (ru/en) и тип материала (слайд/документ/веб/баннер) перед сборкой.",
+    "skip_if": "Пользователь уже указал явно.",
+    "how": "Один короткий уточняющий вопрос, не блокирующий, если можно разумно предположить."
+  },
+  "deliver_all_variants": {
+    "rule": "Если у элемента есть светлый/тёмный вариант — предлагать оба, если пользователь не указал один.",
+    "examples": [
+      "логотип light/dark",
+      "фон slides light/dark"
+    ],
+    "note": "Не выбирать один вариант молча за пользователя, если оба уместны."
+  },
+  "colors": {
+    "core": [
+      {
+        "name": "Orange",
+        "hex": "#FE6A00",
+        "role": "Primary — основной цвет бренда"
+      },
+      {
+        "name": "Green",
+        "hex": "#337D76",
+        "role": "Secondary — равнозначен жёлтому/синему"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFB000",
+        "role": "Secondary — равнозначен зелёному/синему"
+      },
+      {
+        "name": "Blue",
+        "hex": "#32487D",
+        "role": "Secondary — равнозначен зелёному/жёлтому"
+      }
+    ],
+    "text": [
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "role": "Текст на белом фоне"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "role": "Текст на цветном фоне / фон"
+      }
+    ],
+    "signals": [
+      {
+        "name": "Success",
+        "hex": "#337D76",
+        "role": "Успех (использует фирменный зелёный)"
+      },
+      {
+        "name": "Warning",
+        "hex": "#FFB000",
+        "role": "Предупреждение (фирменный жёлтый)"
+      },
+      {
+        "name": "Info",
+        "hex": "#32487D",
+        "role": "Информация (фирменный синий)"
+      }
+    ],
+    "extended_palettes": {
+      "ramps": [
+        {
+          "name": "Orange",
+          "hexes": [
+            "#FFD2B2",
+            "#FE9E59",
+            "#FE6A00",
+            "#BE5000",
+            "#7F3500",
+            "#471E00"
+          ]
+        },
+        {
+          "name": "Green",
+          "hexes": [
+            "#C2D8D6",
+            "#7AAAA6",
+            "#337D76",
+            "#265E58",
+            "#1A3E3B",
+            "#0E2321"
+          ]
+        },
+        {
+          "name": "Yellow",
+          "hexes": [
+            "#FFE7B2",
+            "#FFCC59",
+            "#FFB000",
+            "#BF8400",
+            "#805800",
+            "#473100"
+          ]
+        },
+        {
+          "name": "Blue",
+          "hexes": [
+            "#C2C8D8",
+            "#7A88AA",
+            "#32487D",
+            "#26365E",
+            "#19243E",
+            "#0E1423"
+          ]
+        }
+      ]
+    },
+    "forbidden": [
+      "Не перекрашивать логотип в другие цвета.",
+      "Не изменять пропорции логотипа — не растягивать, не сжимать, не искажать.",
+      "Не размещать рыжий логотип на цветном фоне (только на белом или чёрном).",
+      "Не добавлять цвета вне фирменной палитры (рыжий, зелёный, жёлтый, синий, чёрный, белый).",
+      "На белом фоне текст только чёрный, на цветном фоне — только белый.",
+      "Не более 3 различных начертаний шрифта в одном материале.",
+      "Не искажать и не перекрашивать шрифт Montserrat в нефирменные цвета.",
+      "Чёрный фон запрещён в презентациях (в других материалах и на сайтах — допустим).",
+      "В подписи почты: без приставок к юрлицам, без лишних знаков (скобки/сердечки), цвет подписи только рыжий или чёрный."
+    ]
+  },
+  "typography": {
+    "fonts": {
+      "display": "Montserrat",
+      "body": "Montserrat",
+      "mono": "JetBrains Mono"
+    }
+  },
+  "logo": {
+    "mark_viewbox": "0 0 335.78 131.04",
+    "wordmark_svg_path": "glowbyte-logo-red.svg",
+    "lockup_svg_path": "glowbyte-logo-red.svg"
+  },
+  "effects": {
+    "signature": [
+      "aurora_colors",
+      "grid_color",
+      "grid_size_px",
+      "stipple_color",
+      "noise_gradient_css"
+    ]
+  },
+  "products": [
+    {
+      "name": "Advanced Analytics",
+      "tagline": "",
+      "accent": "#FE6A00",
+      "description": "Продвинутая аналитика, ML и ИИ для оптимальных бизнес-решений",
+      "capabilities": []
+    },
+    {
+      "name": "Risk Management & Compliance",
+      "tagline": "",
+      "accent": "#337D76",
+      "description": "Автоматизация управления рисками и регуляторных требований (ПОД/ФТ, антифрод, IFRS9/17, ПВР, коллекшн, ИБ)",
+      "capabilities": []
+    },
+    {
+      "name": "Marketing Management",
+      "tagline": "",
+      "accent": "#FFB000",
+      "description": "Клиентская аналитика и автоматизация маркетинга (aCRM, CVM, CJM)",
+      "capabilities": []
+    },
+    {
+      "name": "Marketing Management Support",
+      "tagline": "",
+      "accent": "#32487D",
+      "description": "Техническое сопровождение аналитических CRM и маркетинговых комплексов",
+      "capabilities": []
+    },
+    {
+      "name": "Marketing Service Provider",
+      "tagline": "",
+      "accent": "#FE6A00",
+      "description": "Бизнес-консалтинг и клиентская аналитика для CRM-маркетинга",
+      "capabilities": []
+    },
+    {
+      "name": "Business Intelligence",
+      "tagline": "",
+      "accent": "#337D76",
+      "description": "Визуализация данных на новом уровне",
+      "capabilities": []
+    },
+    {
+      "name": "Финансовая аналитика",
+      "tagline": "",
+      "accent": "#FFB000",
+      "description": "Решения для повышения эффективности управления (CPM), бюджетирование",
+      "capabilities": []
+    },
+    {
+      "name": "Customer Experience",
+      "tagline": "",
+      "accent": "#32487D",
+      "description": "Изучение пользовательского опыта, автоматизация сбора обратной связи (VoC, CJM)",
+      "capabilities": []
+    },
+    {
+      "name": "Business Process Management (BPM)",
+      "tagline": "",
+      "accent": "#FE6A00",
+      "description": "Процессная зрелость: от Low-code BPMS до Open Source на Camunda",
+      "capabilities": []
+    },
+    {
+      "name": "Retail Solutions",
+      "tagline": "",
+      "accent": "#337D76",
+      "description": "Ценообразование, ассортимент, промо, прогноз и пополнение для ритейла",
+      "capabilities": []
+    },
+    {
+      "name": "Промышленный IoT",
+      "tagline": "",
+      "accent": "#FFB000",
+      "description": "Предиктивная аналитика, цифровые советники, платформы промышленных данных",
+      "capabilities": []
+    },
+    {
+      "name": "Оптимизация работы страховых компаний",
+      "tagline": "",
+      "accent": "#32487D",
+      "description": "ИИ-решения для ключевых процессов страховых (тарификация, антифрод, СПР)",
+      "capabilities": []
+    },
+    {
+      "name": "Data Governance (Adastra)",
+      "tagline": "",
+      "accent": "#FE6A00",
+      "description": "Управление метаданными, качеством данных, НСИ и мастер-данными",
+      "capabilities": []
+    },
+    {
+      "name": "Process & Task Mining",
+      "tagline": "",
+      "accent": "#337D76",
+      "description": "Реальная картина работы процессов и отделов, поиск точек оптимизации",
+      "capabilities": []
+    },
+    {
+      "name": "Robotic Process Automation (RPA)",
+      "tagline": "",
+      "accent": "#FFB000",
+      "description": "Роботизация процессов: поиск, внедрение, поддержка, центр компетенций",
+      "capabilities": []
+    },
+    {
+      "name": "DWH (хранилища данных)",
+      "tagline": "",
+      "accent": "#32487D",
+      "description": "Сбор, обработка, управление и анализ исторических данных",
+      "capabilities": []
+    },
+    {
+      "name": "Value Added Reseller",
+      "tagline": "",
+      "accent": "#FE6A00",
+      "description": "Официальная поставка лицензионного ПО от лидеров рынка",
+      "capabilities": []
+    },
+    {
+      "name": "A2nced (образование)",
+      "tagline": "",
+      "accent": "#337D76",
+      "description": "Курсы по анализу данных и управлению жизненным циклом моделирования",
+      "capabilities": []
+    }
+  ],
+  "self_check_before_delivery": {
+    "mandatory": "Пройти весь checklist перед тем как отдать финальный материал.",
+    "checklist": [
+      "Цвета взяты из манифеста, не с глаз/памяти.",
+      "Шрифты соответствуют typography.fonts.",
+      "Логотип не искажён, из заданных вариантов.",
+      "Для эффектов — использованы effects.signature, а не произвольные.",
+      "Если материал на русском — проверены висячие предлоги (неразрывные пробелы)."
+    ]
+  }
+}
