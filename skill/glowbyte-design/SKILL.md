@@ -35,11 +35,18 @@ https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brandbook/main/index.h
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/logos/glowbyte-logo-red.svg
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/logos/glowbyte-logo-white.svg
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/logos/glowbyte-mark.svg
+https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/fonts/Montserrat-var.ttf
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/fonts/Montserrat-Regular.ttf
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/fonts/Montserrat-Bold.ttf
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/fonts/JetBrainsMono-Regular.ttf
 https://raw.githubusercontent.com/TerryAirwalker/glowbyte-brand-assets/main/fonts/JetBrainsMono-Bold.ttf
 ```
+
+`Montserrat-var.ttf` — переменный шрифт (ось `wght` 100–900): одним файлом покрывает все
+начертания (Light 300 … Bold 700). Используй его для web/HTML/SVG/CSS-материалов
+(`@font-face` + `font-weight`). Для `docx/pptx/pdf` встраивай статические
+`Montserrat-Regular.ttf` / `Montserrat-Bold.ttf` (Office надёжнее работает с дискретными
+файлами весов).
 
 Рыжий логотип — по умолчанию (белый/чёрный фон), белый логотип — для цветного/чёрного
 фона (см. `manifest.json` → `colors.forbidden`: рыжий логотип на цветном фоне запрещён).
