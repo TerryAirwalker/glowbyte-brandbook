@@ -33,10 +33,10 @@
       "products"
     ],
     "slides": [
-      "slides",
       "effects",
       "colors",
-      "typography"
+      "typography",
+      "logo"
     ],
     "effects": [
       "effects"
