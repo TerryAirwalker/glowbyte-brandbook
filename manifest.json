@@ -926,9 +926,9 @@
   },
   "logo": {
     "mark_viewbox": "0 0 41 131",
-    "wordmark_svg_path": "glowbyte-logo-red.svg",
-    "wordmark_svg_path_dark": "glowbyte-logo-white.svg",
-    "lockup_svg_path": "glowbyte-logo-red.svg",
+    "wordmark_svg_path": "logos/glowbyte-logo-red.svg",
+    "wordmark_svg_path_dark": "logos/glowbyte-logo-white.svg",
+    "lockup_svg_path": "logos/glowbyte-logo-red.svg",
     "usage_examples": {
       "good": [
         [
