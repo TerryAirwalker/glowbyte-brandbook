@@ -1,6 +1,6 @@
 ---
 name: glowbyte-design
-description: Use when creating materials (slides, documents, banners, decks) in the GlowByte brand style — colors, fonts, logo, effects. Презентации: по умолчанию отдавай красивый полностью ЗАПЕЧЁННЫЙ .pptx из HTML (текст впечатан в картинку, выглядит одинаково везде), всегда предлагай PDF, а редактируемый («живой») текст делай только по запросу; формат заранее НЕ спрашивай — см. раздел про формат презентаций ниже.
+description: Use when creating materials (slides, documents, banners, decks) in the GlowByte brand style — colors, fonts, logo, effects. Презентации — по умолчанию отдавай красивый полностью ЗАПЕЧЁННЫЙ .pptx из HTML (текст впечатан в картинку, выглядит одинаково везде), всегда предлагай PDF, а редактируемый («живой») текст делай только по запросу; формат заранее НЕ спрашивай — см. раздел про формат презентаций ниже.
 ---
 
 # GlowByte Design — потребительский скилл
