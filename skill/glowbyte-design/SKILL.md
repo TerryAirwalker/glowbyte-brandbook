@@ -1,11 +1,11 @@
 ---
 name: glowbyte-design
-description: Use when creating materials (slides, documents, banners, decks) in the GlowByte brand style — colors, fonts, logo, effects.
+description: Use when creating materials (slides, documents, banners, decks) in the GlowByte brand style — colors, fonts, logo, effects. При запросе на создание или перевёрстку презентации СНАЧАЛА обязательно задай пользователю уточняющие вопросы (формат выдачи PPTX/PDF/PNG; для редактируемого формата — встраивание шрифтов) и дождись ответа ДО начала сборки — см. раздел про обязательные вопросы о формате и шрифтах ниже.
 ---
 
 # GlowByte Design — потребительский скилл
 
-**Версия скилла: 1.10**
+**Версия скилла: 1.11**
 
 Публичный, самообслуживаемый скилл. Не требует токена и доступа к приватным
 репозиториям — все данные бренда берутся из публичного манифеста.
